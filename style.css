@@ -1,0 +1,77 @@
+* {
+    padding: 3px;
+    margin: 3px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(123, 0, 255);
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.kotak {
+    width: 300px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+
+}
+
+.kotak .user label {
+    display:block;
+}
+
+.kotak input {
+    padding-left: 20px;
+    display:block;
+}
+
+h1{
+text-align: center;
+}
+
+.user{
+    display: block;
+}
+
+.user label {
+    display: block;
+    justify-content:start;
+}
+
+ .login {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+
+ }
+ .pass{
+    display: block;
+}
+
+.pass label {
+    display: block;
+    justify-content:start;
+}
+
+.lupapassword {
+  text-align:right ;
+  padding-top: 20px;
+
+}
+
+.lupapassword1 {
+    text-decoration: none;
+}
